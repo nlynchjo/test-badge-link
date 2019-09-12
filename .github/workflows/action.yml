@@ -3,10 +3,12 @@ name: Check Markdown links
 on: push
 
 jobs:
-  markdown-link-check:
+  linkChecker:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
+    - name: Link Checker
+      uses: peter-evans/link-checker@v1.0.0
       with:
-        fetch-depth: 1
-    - uses: gaurav-nelson/github-action-markdown-link-check@v0.2.0
+        args: -v -r *
+        
