@@ -11,7 +11,7 @@ branches:
   only:
     - master
 
-install:
+before_install:
  - go get -u github.com/raviqqe/liche
  
  script:
