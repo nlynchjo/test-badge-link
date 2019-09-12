@@ -1,6 +1,6 @@
 test-badge-link1
 
-[Bad link](https://github.com/gaurav-nelson/github-action-markdown-link-check/blob/master/www.exampleexample.cox)
+[Bad link](https://verybadlink.doesntexist)
 [Good Link](www.google.com)
 
 [Bad Local Link](./media/idontreallyexist)
